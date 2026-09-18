@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include <locale.h>
+//#include <locale.h>
+#include <windows.h>
 
 int main()
 {
-    setlocale(LC_ALL, "");
-    printf("‰‰hr!\n");
+    //setlocale(LC_ALL, "");
+    SetConsoleOutputCP(CP_UTF8);
+    printf("√§√§hr!\n");
     return 0;
 }
