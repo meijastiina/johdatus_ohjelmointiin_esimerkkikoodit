@@ -23,7 +23,6 @@ int main()
     // Jos salanumero on 17
         // onnittele käyttäjää
     printf("Congrats!");
-    printf("Congrats!");
 
     return 0;
 }
